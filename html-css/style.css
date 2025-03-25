@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: pink;
+    gap: 20px;
+
+
+
+}
+
+.item {
+    display: flex;
+    border: 1px solid #000;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    font-size:90px;
+}
+
+
+
+.grid4-container>.item {
+    width: calc(25% - 20px);
+    background-color: red;
+
+}
+
+.grid6-container>.item {
+    width: calc(16% - 20px);
+    background-color: blue;
+}
+
+.grid2-container>.item {
+    width: calc(50% - 20px);
+    background-color: yellow;
+
+}

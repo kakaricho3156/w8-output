@@ -1,0 +1,115 @@
+/* リセットCSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 全体の背景とフォント設定 */
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+/* コンテナのスタイリング */
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    height: 100%;
+}
+
+/* タイトル */
+.title {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 70px;
+    color: #333;
+}
+
+
+
+/* テーブル内のラベルと入力フィールド */
+.form-table {
+    width: 100%;
+    text-align: center;
+}
+
+.form-table tr{
+margin-top: 40px;
+}
+
+
+.form-table th {
+    text-align: center;
+    color: #555;
+    font-size: 60px;
+}
+
+
+
+
+
+th >label{
+    margin-right: 40px;
+}
+
+.input {
+    padding: 20px 10px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fafafa;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    min-width:500px;
+
+
+}
+
+
+/* ボタンのスタイル */
+.form-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #4b9ef3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #357bbd;
+}
+
+.button-submission {
+    padding: 30px;
+}
+
+/* リンク */
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+p a {
+    color: #4b9ef3;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
